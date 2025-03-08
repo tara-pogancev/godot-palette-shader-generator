@@ -1,0 +1,44 @@
+;paint.net Palette File
+;Downloaded from Lospec.com/palette-list
+;Palette Name: Waldgeist
+;Description: A set of warm desaturated colours. Perfect for making soft, dark or nostalgic artworks.
+;Colors: 39
+FFa6884a
+FF906c30
+FF825337
+FF83473d
+FF66352e
+FF562923
+FF612638
+FF46332c
+FF323230
+FF3e4055
+FF382d35
+FF323b42
+FF1f2d36
+FF141f25
+FF0b1016
+FF245273
+FF4e7499
+FF5e7e8b
+FF798a92
+FF879ea3
+FFe3ddd1
+FFbdbbae
+FFaf9e94
+FF907c75
+FFa29f7e
+FF969372
+FF78735d
+FF696353
+FF4f493b
+FF212528
+FF595c55
+FF4b4e4f
+FF57562a
+FF675f30
+FF727234
+FF73804b
+FF5f7b53
+FF3b6d62
+FF32534a
