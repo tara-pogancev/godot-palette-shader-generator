@@ -45,3 +45,5 @@ After importing the shader file to your Godot project, create a new 2D **ColorRe
 Depending on if your game is 2D or 3D, and how you handle camera movement, you might want to place your ColorRect on a CanvasLayer, to make sure it always covers the entirety of the screen.
 
 In the *sample_data* and *export* folder, you will find some example palettes and their generated shaders respectively. Feel free to try them out!
+
+![sample.jpg](assets%2Fsample.jpg)
