@@ -1,5 +1,6 @@
 import os
 from PIL import ImageColor
+import argparse
 
 def read_file_contents(file_path: str) -> str:
     """Reads the contents of a file given its relative or absolute path."""
@@ -86,7 +87,13 @@ def save_shader_file(content):
     print(f"Shader file saved as: {new_file_path}")
 
 if __name__ == '__main__':
-    file_content = read_file_contents("sample_data/zenit-241.txt")
+    parser = argparse.ArgumentParser(description="Generate a Godot shader file from a color palette.")
+    parser.add_argument("file", nargs="?", default="sample_data/apollo.txt", help="Path to the input text file (optional)")
+    args = parser.parse_args()
+
+    input_file = args.file
+
+    file_content = read_file_contents(input_file)
     hex_colors = get_hex_lines()
     rgb_colors = get_rgb_colors()
 

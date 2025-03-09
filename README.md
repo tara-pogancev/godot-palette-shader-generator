@@ -10,6 +10,11 @@ The shader base is based on **TheBuffED's** great implementation, a tutorial on 
 
 #### Requirements
 This script runs using **Python**. It was built using version *3.11*.
+
+The script also uses Pillow package, for color conversion. You can install it by running:
+
+`pip install pillow`
+
 For utilizing the shaders, I use **Godot 4**.
 
 ## ❓ How to use?
@@ -19,6 +24,19 @@ Go to [Lospec](https://lospec.com/palette-list), and browse for a palette you li
 
 ![lospec_options.png](assets%2Flospec_options.png)
 
+You can run the script either from the console, or an IDE (such as PyCharm). Using the console is the most straight-forward, if you do not wish to make any code adjustments. There is one optional argument for running the script, and that is the palette file path. By default, it will target the Apollo palette in the sample data.
+
+To execute the script on your own palette, run the following command (from the root folder):
+
+`python generate_shader.py "{PATH_TO_PALETTE_TXT_FILE}"`
+
+Make sure to alter the palette file path. Both relative and absolute paths will work, and the exported .gdshader will always be in the "_export_" folder. If your paths include blank spaces, don't forget to use apostrophes. 
+
+Examples of running the command:
+- python generate_shader.py
+- python generate_shader.py "D:\Documents\Color Palettes\godot-palette-shader-generator\sample_data\duel.txt"
+- python generate_shader.py "sample_data\apollo.txt"
+- python generate_shader.py sample_data\apollo.txt
 
 
 ## 🌞  Applying the shader
